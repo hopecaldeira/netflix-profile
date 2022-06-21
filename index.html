@@ -12,32 +12,39 @@
     <body>
         <nav>
             <ul>
-                <li>Home</li>
-                <li><a href="/">Favorites</li></a> <!-- these links will drop down to these titles-->
-                <li><a href="/">Downloaded</li></a>
+                <li><a href="/">List</li></a> <!-- these links will drop down to these titles-->
+                <li><a href="/">Downloads</li></a>
                 <li><a href="/">Suggestions</li></a>
-                <li><a href="/">LogOut</li></a>
             </ul>
             <a href="/"><img src="/">user pic goes here</a> <!-- link to profile-->
+            <a href="/">LogOut</a>
         </nav>
-        <box1>
-            <h2 class="favorites">
-                <row1> <!-- these will be movie titles obv lol-->
-                    <img src="/">
-                    <img src="/">
-                    <img src="/">
-                    <img src="/">
-                    <img src="/">
-                    <img src="/">
-                </row1>
+        <div id="rows">
+            <h2 class="list">star icon // my list:</h2>
+                <div class="boxes">
+                    <!-- these will be movie titles obv lol-->
+                    <img src="/" class="b1">
+                    <img src="/" class="b2">
+                    <img src="/" class="b3">
+                    <img src="/" class="b4">
+                    <img src="/" class="b5">
+                </div>
+                <div class="more">
+                    <!--arrow with translucent box w more shows????-->
+                </div>
             </h2>
-            <h2 class="downloaded">
-                <row2>
-                    <img src="/">
-                    <img src="/">
+        </div>
+        <div id="rows">
+            <h2 class="downloads">
+                <div class="boxes">
+                    <img src="/" class="b6">
+                    <img src="/" class="b7">
+                    <img src="/" class="b8">
                     <box1>+ Download Another One</box1>
-                </row2>
+                </div>
             </h2>
+        </div>
+        <div id="rows">
             <h2 class="suggestions">
                 <h3>Movies/Shows we think you'd like!</h3>
                 <img src="/" id="addTo">
@@ -47,9 +54,6 @@
                 <img src="/" id="addTo">
                     <p>click to add to collection!</p>
             </h2>
-        <div class="logout">
-            <a href="/" class="button">Logout</a>
         </div>
-        </box1>
     </body>
 </html>
