@@ -1,0 +1,59 @@
+* {
+
+}
+
+body {
+
+}
+
+nav {
+
+}
+
+.logo {
+    align-self: auto;
+    width: 200px;
+    height: 80px;
+}
+
+ul {
+
+}
+
+li {
+    text-align: right;
+}
+
+li a {
+    color: white;
+}
+
+a img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+#rows {
+    align-content: space-between;
+    height: 400px;
+    padding: 50px;
+}
+
+.list {
+    color: white;
+}
+
+.boxes {
+    height: 100px;
+    width: 80px;
+}
+
+.b1 {
+
+}
