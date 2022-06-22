@@ -1,5 +1,6 @@
 * {
-
+    background-color: black;
+    color: white;
 }
 
 body {
@@ -7,7 +8,9 @@ body {
 }
 
 nav {
-
+    width: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -16,16 +19,34 @@ nav {
     height: 80px;
 }
 
-ul {
+.logo img {
+    width: 200px;
+    height: 80px;
+}
 
+ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 li {
     text-align: right;
+    list-style: none;
+    margin-top: 5px;
 }
 
 li a {
-    color: white;
+    color: #b81d24;
+    margin: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 a img {
@@ -34,26 +55,64 @@ a img {
     height: 100px;
 }
 
-button {
+a button {
     background-color: black;
     color: white;
+    border: solid 2px green;
 }
 
 #rows {
-    align-content: space-between;
     height: 400px;
-    padding: 50px;
+    border: solid 2px rgb(147, 196, 196);
 }
 
 .list {
     color: white;
+    border: solid 2px yellow;
+    font-family: 'Bebas Neue';
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
 }
 
 .boxes {
-    height: 100px;
-    width: 80px;
+    border: solid 2px rgb(221, 0, 255);
+    display: flex;
+    justify-content: space-around;
 }
 
-.b1 {
-
+.boxes img {
+    height: 250px;
+    width: 150px;
+    border: solid 2px rgb(255, 0, 72);
 }
+
+box1 {
+    width: 100px;
+    height: 80px;
+    color: gray;
+    opacity: .45;
+    border: solid 2px rgb(255, 174, 0);
+}
+
+img:hover {
+    background-color: black;
+    opacity: .20;
+}
+
+a:hover {
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.tv1:hover + .hide {
+    display: contents;
+    color: white;
+    opacity: .75;
+}
+
+// figure out how to get bridgerton to display on pic and not
+next to it //
