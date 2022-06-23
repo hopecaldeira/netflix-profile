@@ -1,6 +1,8 @@
 * {
     background-color: black;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -32,7 +34,7 @@ ul {
 li {
     text-align: right;
     list-style: none;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 li a {
@@ -116,3 +118,5 @@ a:hover {
 
 // figure out how to get bridgerton to display on pic and not
 next to it //
+
+// also redo margins & padding after resetting default browser settings //
